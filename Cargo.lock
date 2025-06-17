@@ -2257,9 +2257,9 @@ dependencies = [
 
 [[package]]
 name = "hashbrown"
-version = "0.14.0"
+version = "0.15.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "2c6201b9ff9fd90a5a3bac2e56a830d0caa509576f0e503818ee82c181b3437a"
+checksum = "5971ac85611da7067dbfcabef3c70ebb5606018acd9e2a3903a0da507521e0d5"
 
 [[package]]
 name = "headers"
@@ -2576,12 +2576,12 @@ dependencies = [
 
 [[package]]
 name = "indexmap"
-version = "2.0.0"
+version = "2.6.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d5477fe2230a79769d8dc68e0eabf5437907c0457a5614a9e8dddb67f65eb65d"
+checksum = "707907fe3c25f5424cce2cb7e1cbcafee6bdbe735ca90ef77c29e84591e5b9da"
 dependencies = [
  "equivalent",
- "hashbrown 0.14.0",
+ "hashbrown 0.15.4",
  "rayon",
 ]
 
@@ -4839,7 +4839,7 @@ version = "0.9.22"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "452e67b9c20c37fa79df53201dc03839651086ed9bbe92b3ca585ca9fdaa7d85"
 dependencies = [
- "indexmap 2.0.0",
+ "indexmap 2.6.0",
  "itoa",
  "ryu",
  "serde",
@@ -5537,7 +5537,7 @@ dependencies = [
  "crossbeam-channel",
  "futures 0.3.28",
  "futures-util",
- "indexmap 2.0.0",
+ "indexmap 2.6.0",
  "indicatif",
  "log",
  "quinn",
@@ -5617,7 +5617,7 @@ dependencies = [
  "async-trait",
  "bincode",
  "futures-util",
- "indexmap 2.0.0",
+ "indexmap 2.6.0",
  "indicatif",
  "log",
  "rand 0.7.3",
@@ -5953,7 +5953,7 @@ dependencies = [
  "clap 2.33.3",
  "crossbeam-channel",
  "flate2",
- "indexmap 2.0.0",
+ "indexmap 2.6.0",
  "itertools",
  "log",
  "lru",
@@ -6986,7 +6986,7 @@ dependencies = [
  "crossbeam-channel",
  "futures-util",
  "histogram",
- "indexmap 2.0.0",
+ "indexmap 2.6.0",
  "itertools",
  "libc",
  "log",
@@ -7076,7 +7076,7 @@ dependencies = [
  "console",
  "csv",
  "ctrlc",
- "indexmap 2.0.0",
+ "indexmap 2.6.0",
  "indicatif",
  "pickledb",
  "serde",
@@ -7105,7 +7105,7 @@ dependencies = [
  "async-trait",
  "bincode",
  "futures-util",
- "indexmap 2.0.0",
+ "indexmap 2.6.0",
  "indicatif",
  "log",
  "rand 0.7.3",
