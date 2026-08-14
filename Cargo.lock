@@ -3298,11 +3298,12 @@ dependencies = [
 
 [[package]]
 name = "num_enum"
-version = "0.6.1"
+version = "0.7.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "7a015b430d3c108a207fd776d2e2196aaf8b1cf8cf93253e3a097ff3085076a1"
+checksum = "5d0bca838442ec211fa11de3a8b0e0e8f3a4522575b5c4c06ed722e005036f26"
 dependencies = [
- "num_enum_derive 0.6.1",
+ "num_enum_derive 0.7.6",
+ "rustversion",
 ]
 
 [[package]]
@@ -3319,9 +3320,9 @@ dependencies = [
 
 [[package]]
 name = "num_enum_derive"
-version = "0.6.1"
+version = "0.7.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "96667db765a921f7b295ffee8b60472b686a51d4f21c2ee4ffdb94c7013b65a6"
+checksum = "680998035259dcfcafe653688bf2aa6d3e2dc05e98be6ab46afb089dc84f1df8"
 dependencies = [
  "proc-macro-crate 1.1.0",
  "proc-macro2 1.0.64",
@@ -5344,7 +5345,7 @@ dependencies = [
  "log",
  "memmap2",
  "modular-bitfield",
- "num_enum 0.6.1",
+ "num_enum 0.7.6",
  "rand 0.7.3",
  "rayon",
  "solana-logger",
@@ -5654,7 +5655,7 @@ dependencies = [
  "lru",
  "matches",
  "min-max-heap",
- "num_enum 0.6.1",
+ "num_enum 0.7.6",
  "quinn",
  "rand 0.7.3",
  "rand_chacha 0.2.2",
@@ -6067,7 +6068,7 @@ dependencies = [
  "lru",
  "matches",
  "num_cpus",
- "num_enum 0.6.1",
+ "num_enum 0.7.6",
  "prost 0.11.9",
  "rand 0.7.3",
  "rand_chacha 0.2.2",
@@ -6758,7 +6759,7 @@ dependencies = [
  "num-derive",
  "num-traits",
  "num_cpus",
- "num_enum 0.6.1",
+ "num_enum 0.7.6",
  "once_cell",
  "ouroboros",
  "percentage",
@@ -6832,7 +6833,7 @@ dependencies = [
  "memmap2",
  "num-derive",
  "num-traits",
- "num_enum 0.6.1",
+ "num_enum 0.7.6",
  "pbkdf2 0.11.0",
  "qstring",
  "rand 0.7.3",
