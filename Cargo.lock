@@ -5481,7 +5481,7 @@ dependencies = [
  "solana-version",
  "solana-vote-program",
  "solana_rbpf",
- "spl-memo",
+ "spl-memo 4.0.0",
  "tempfile",
  "thiserror",
  "tiny-bip39",
@@ -5525,7 +5525,7 @@ dependencies = [
  "solana-sdk",
  "solana-transaction-status",
  "solana-vote-program",
- "spl-memo",
+ "spl-memo 4.0.0",
 ]
 
 [[package]]
@@ -5828,7 +5828,7 @@ dependencies = [
  "solana-metrics",
  "solana-sdk",
  "solana-version",
- "spl-memo",
+ "spl-memo 4.0.0",
  "thiserror",
  "tokio",
 ]
@@ -7167,7 +7167,7 @@ dependencies = [
  "solana-address-lookup-table-program",
  "solana-sdk",
  "spl-associated-token-account",
- "spl-memo",
+ "spl-memo 4.0.0",
  "spl-token",
  "spl-token-2022",
  "thiserror",
@@ -7501,6 +7501,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "spl-memo"
+version = "4.0.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "f0f180b03318c3dbab3ef4e1e4d46d5211ae3c780940dd0a28695aba4b59a75a"
+dependencies = [
+ "solana-program",
+]
+
+[[package]]
 name = "spl-token"
 version = "3.5.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -7528,7 +7537,7 @@ dependencies = [
  "num_enum 0.5.11",
  "solana-program",
  "solana-zk-token-sdk",
- "spl-memo",
+ "spl-memo 3.0.1",
  "spl-token",
  "thiserror",
 ]
